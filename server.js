@@ -1,4 +1,5 @@
 const express = require('express')
+const { Telegraf, Markup } = require("telegraf");
 const app = express()
 const port = process.env.PORT || 3000
 
@@ -10,7 +11,6 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
-const { Telegraf, Markup } = require("telegraf");
 
 const token = '6645397028:AAGPNe5evoTMKPoWw95a9vq6PP6lWz6roIs'
 
